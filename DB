@@ -1,0 +1,49 @@
+{
+  "cells": [
+    {
+      "metadata": {
+        "trusted": true
+      },
+      "cell_type": "code",
+      "source": "n = int(input(\"Ingresa el total de datos\"))\nr = int(input(\"Número a seleccionar\"))\nq = int(input(\"Probabilidad de fracasar\"))\np = int(input(\"Probabilidad de exito\"))\n#Formula\n#P(x = r) = (nCr)* (q**r ) * ((1-P)**n-r)\nP= (n) * (p**r) * ((q**(n-r)))\nprint(P)",
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": "Ingresa el total de datos18\nNúmero a seleccionar9\nProbabilidad de fracasar19\nProbabilidad de exito71\n266305448582192615128981238682\n"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "trusted": true
+      },
+      "cell_type": "code",
+      "source": "",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python36",
+      "display_name": "Python 3.6",
+      "language": "python"
+    },
+    "language_info": {
+      "mimetype": "text/x-python",
+      "nbconvert_exporter": "python",
+      "name": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.6.6",
+      "file_extension": ".py",
+      "codemirror_mode": {
+        "version": 3,
+        "name": "ipython"
+      }
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 2
+}
